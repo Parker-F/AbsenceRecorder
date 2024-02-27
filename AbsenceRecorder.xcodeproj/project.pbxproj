@@ -16,6 +16,7 @@
 		C3F784552B8E410C00A12EF1 /* AbsenceRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784542B8E410C00A12EF1 /* AbsenceRecorderUITestsLaunchTests.swift */; };
 		C3F784642B8E421300A12EF1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784632B8E421300A12EF1 /* Student.swift */; };
 		C3F784662B8E42B500A12EF1 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784652B8E42B500A12EF1 /* Division.swift */; };
+		C3F784692B8E965800A12EF1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784682B8E965800A12EF1 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		C3F784542B8E410C00A12EF1 /* AbsenceRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C3F784632B8E421300A12EF1 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		C3F784652B8E42B500A12EF1 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		C3F784682B8E965800A12EF1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		C3F784362B8E410800A12EF1 /* AbsenceRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				C3F784672B8E964700A12EF1 /* Extensions */,
 				C3F784622B8E41CD00A12EF1 /* View */,
 				C3F784612B8E41B700A12EF1 /* Model */,
 				C3F784372B8E410800A12EF1 /* AbsenceRecorderApp.swift */,
@@ -147,6 +150,14 @@
 				C3F784392B8E410800A12EF1 /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C3F784672B8E964700A12EF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3F784682B8E965800A12EF1 /* Date.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3F7843A2B8E410800A12EF1 /* ContentView.swift in Sources */,
+				C3F784692B8E965800A12EF1 /* Date.swift in Sources */,
 				C3F784642B8E421300A12EF1 /* Student.swift in Sources */,
 				C3F784662B8E42B500A12EF1 /* Division.swift in Sources */,
 				C3F784382B8E410800A12EF1 /* AbsenceRecorderApp.swift in Sources */,
