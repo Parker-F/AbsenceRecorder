@@ -15,7 +15,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(divisions, id: \.self.code) { division in
-                DivisionItem(division: division)
+                NavigationLink(destination: AbsenceView(division: division)) {
+                    DivisionItem(division: division)
+                }
             }
             .navigationTitle(currentDate.getShortDate())
             .toolbar {
