@@ -17,6 +17,7 @@
 		C3F784642B8E421300A12EF1 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784632B8E421300A12EF1 /* Student.swift */; };
 		C3F784662B8E42B500A12EF1 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784652B8E42B500A12EF1 /* Division.swift */; };
 		C3F784692B8E965800A12EF1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784682B8E965800A12EF1 /* Date.swift */; };
+		C3F7846D2B8F824E00A12EF1 /* DivisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F7846C2B8F824E00A12EF1 /* DivisionItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		C3F784632B8E421300A12EF1 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		C3F784652B8E42B500A12EF1 /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		C3F784682B8E965800A12EF1 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		C3F7846C2B8F824E00A12EF1 /* DivisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				C3F784392B8E410800A12EF1 /* ContentView.swift */,
+				C3F7846C2B8F824E00A12EF1 /* DivisionItem.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				C3F784642B8E421300A12EF1 /* Student.swift in Sources */,
 				C3F784662B8E42B500A12EF1 /* Division.swift in Sources */,
 				C3F784382B8E410800A12EF1 /* AbsenceRecorderApp.swift in Sources */,
+				C3F7846D2B8F824E00A12EF1 /* DivisionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
