@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct StatisticsView: View {
+    @EnvironmentObject var state: StateController
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Statistics: \(state.divisions[0].code)")
     }
 }
-
 #Preview {
     StatisticsView()
+        .environmentObject(StateController())
 }
