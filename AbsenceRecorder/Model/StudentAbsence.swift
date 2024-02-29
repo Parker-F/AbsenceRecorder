@@ -17,6 +17,6 @@ class StudentAbsence {
     }
     
     #if DEBUG
-    static let example = StudentAbsence(student: Student(forename: "Peter", surname: "Capaldi", birthday: Date()))
+    static let example = StudentAbsence(student: Student.example)
     #endif
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3ED259D2B907704009145E4 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED259C2B907704009145E4 /* StudentAbsence.swift */; };
+		C3ED259F2B907A41009145E4 /* Absence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED259E2B907A41009145E4 /* Absence.swift */; };
 		C3F784382B8E410800A12EF1 /* AbsenceRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784372B8E410800A12EF1 /* AbsenceRecorderApp.swift */; };
 		C3F7843A2B8E410800A12EF1 /* DivisionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784392B8E410800A12EF1 /* DivisionsView.swift */; };
 		C3F7843C2B8E410B00A12EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F7843B2B8E410B00A12EF1 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		C3ED259C2B907704009145E4 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
+		C3ED259E2B907A41009145E4 /* Absence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absence.swift; sourceTree = "<group>"; };
 		C3F784342B8E410800A12EF1 /* AbsenceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsenceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F784372B8E410800A12EF1 /* AbsenceRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderApp.swift; sourceTree = "<group>"; };
 		C3F784392B8E410800A12EF1 /* DivisionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionsView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				C3F784632B8E421300A12EF1 /* Student.swift */,
 				C3F784652B8E42B500A12EF1 /* Division.swift */,
 				C3ED259C2B907704009145E4 /* StudentAbsence.swift */,
+				C3ED259E2B907A41009145E4 /* Absence.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				C3F784382B8E410800A12EF1 /* AbsenceRecorderApp.swift in Sources */,
 				C3F7846D2B8F824E00A12EF1 /* DivisionItem.swift in Sources */,
 				C3F7846F2B8FDB3900A12EF1 /* AbsenceView.swift in Sources */,
+				C3ED259F2B907A41009145E4 /* Absence.swift in Sources */,
 				C3F784752B8FE50F00A12EF1 /* StateController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
