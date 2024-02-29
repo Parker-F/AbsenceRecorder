@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3ED259D2B907704009145E4 /* StudentAbsence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3ED259C2B907704009145E4 /* StudentAbsence.swift */; };
 		C3F784382B8E410800A12EF1 /* AbsenceRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784372B8E410800A12EF1 /* AbsenceRecorderApp.swift */; };
 		C3F7843A2B8E410800A12EF1 /* DivisionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F784392B8E410800A12EF1 /* DivisionsView.swift */; };
 		C3F7843C2B8E410B00A12EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F7843B2B8E410B00A12EF1 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C3ED259C2B907704009145E4 /* StudentAbsence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentAbsence.swift; sourceTree = "<group>"; };
 		C3F784342B8E410800A12EF1 /* AbsenceRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbsenceRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F784372B8E410800A12EF1 /* AbsenceRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenceRecorderApp.swift; sourceTree = "<group>"; };
 		C3F784392B8E410800A12EF1 /* DivisionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionsView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				C3F784632B8E421300A12EF1 /* Student.swift */,
 				C3F784652B8E42B500A12EF1 /* Division.swift */,
+				C3ED259C2B907704009145E4 /* StudentAbsence.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				C3F7843A2B8E410800A12EF1 /* DivisionsView.swift in Sources */,
 				C3F784692B8E965800A12EF1 /* Date.swift in Sources */,
 				C3F784712B8FDE4100A12EF1 /* RootTabView.swift in Sources */,
+				C3ED259D2B907704009145E4 /* StudentAbsence.swift in Sources */,
 				C3F784642B8E421300A12EF1 /* Student.swift in Sources */,
 				C3F784772B8FED8D00A12EF1 /* AbsenceItem.swift in Sources */,
 				C3F784732B8FDEEF00A12EF1 /* StatisticsView.swift in Sources */,
