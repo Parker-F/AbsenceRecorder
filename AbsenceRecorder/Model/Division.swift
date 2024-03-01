@@ -11,7 +11,7 @@ let exampleSurnames = ["Jones", "Williams", "Davies", "Thomas", "Jenkins", "Edwa
 
 import Foundation
 
-class Division {
+class Division: Codable {
     let code: String
     var students: [Student] = []
     var absences: [Absence] = []
