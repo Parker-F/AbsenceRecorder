@@ -20,4 +20,5 @@ class Student {
     #if DEBUG
     static let example = Student(forename: "David", surname: "Tennant", birthday: Date())
     static let examples = [example]
+    #endif
 }

@@ -11,9 +11,9 @@ class Absence {
     let takenOn: Date
     var studentAbsences: [StudentAbsence]
     
-    init(takenOn: Date, studentAbsences: [StudentAbsence]) {
-        self.takenOn = date
-        self.studentAbsences = students.map { StudentAbsence(student: $0)}
+    init(date: Date, students: [Student]) {
+        takenOn = date
+        studentAbsences = students.map { StudentAbsence(student: $0)}
         
     }
     #if DEBUG
